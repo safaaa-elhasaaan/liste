@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+header ,footer{
+    width: 100%;
+    background-color: lightgray;
+    overflow: auto;
+}
+header div{
+    margin: auto;
+    max-width: 1200px;
+}
+header img{
+    width: 65px;
+    float: left;
+    margin: 5px;
+}
+header h1{
+    float: left;
+    text-transform: capitalize;
+    margin: 20px 0px 0px 20px;
+}
+footer div{
+    text-align: center;
+    text-transform: capitalize;
+}
+ nav.nav1{
+    color: white;
+    background-color: dimgray;
+    max-width: 1200px;
+    margin: auto;
+   padding: 15px;
+}
+main{
+    max-width: 1230px;
+    border:thin solid grey;
+    margin: auto;
+    overflow: auto;
+}
+main div{
+    width: 100%;
+    display: table;
+    border-spacing: 10px;
+    text-transform: capitalize;
+}
+section{
+    display: table-cell;
+    border: thin solid gray;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 10px;
+
+}
+aside{
+    display: table-cell;
+    border: thin solid gray;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 10px;
+    width: 350px;
+    height: 150px;
+    background-color: lightgray;
+
+}
+
